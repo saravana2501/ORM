@@ -25,7 +25,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+```
 from django.contrib import admin
 from .models import Movie,MovieAdmin
 admin.site.register(Movie,MovieAdmin)
@@ -44,7 +44,7 @@ class MovieAdmin(admin.ModelAdmin):
     
 
 
-'''
+```
 ## OUTPUT
 ![Screenshot 2025-04-11 145823](https://github.com/user-attachments/assets/3c6de703-7684-4454-bede-1697801b18c1)
 
